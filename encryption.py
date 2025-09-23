@@ -1,8 +1,10 @@
-data = ['cat','boy','rat']
+data = ['cat','boy','bat']
 
 s=""
 
 def encrypt:
     for x in data:
         s +=str(len(x)) + x
-return x[A[B[B[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[C[C[C[C[C[C[C[C[C[C[C[C[C[b[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C
+return x
+#solution
+[B[B[A[A[C[C[C[C[C[C[C[C[C[C[D[x[B[C
