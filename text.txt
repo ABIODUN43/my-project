@@ -1,1 +1,1 @@
-strings = 'EDRT'
+strings = 'EDAB'
