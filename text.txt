@@ -1,1 +1,1 @@
-strings = 'EDAB'
+strings = 'Edpg'
