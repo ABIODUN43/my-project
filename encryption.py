@@ -4,3 +4,5 @@ s=""
 
 def encrypt:
     for x in data:
+        s +=str(len(x)) + x
+return x
