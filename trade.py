@@ -14,7 +14,7 @@ class Solution:
             r+=1
         buys = f"Buy at: {buy}"
         sells = f"Sell at: {sell}"
-        return maxP,buys,sells
+        return maxP,buyss,sellss
 
 coins = Solution()
 expection = coins.trades_history([
