@@ -1,5 +1,5 @@
 class Solution:
-    def trade_history(self,prices):
+    def trades_history(self,prices):
         maxP = 0
         l,r=0,1
         buy,sell = None,None
@@ -16,8 +16,8 @@ class Solution:
         sells = f"Sell at: {sell}"
         return maxP,buys,sells
 
-coin = Solution()
-expection = coin.trade_history([
+coins = Solution()
+expection = coins.trades_history([
     0.8092, 
     0.8304,  
     0.8182,
