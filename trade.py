@@ -1,7 +1,7 @@
 class Solution:
     def trades_history(self,prices):
-        maxP = 0
-        l,r=0,1
+        maxP = 0.00
+        l,r=2,3
         buy,sell = None,None
 
         for r in range(len(prices)):
