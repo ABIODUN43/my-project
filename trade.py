@@ -1,3 +1,6 @@
+"""Best time to buy and sell stocks 
+"""
+
 class Solution:
     def trades_history(self,prices):
         maxP = 0
@@ -14,7 +17,7 @@ class Solution:
             r+=1
         buys = f"Buy at: {buy}"
         sells = f"Sell at: {sell}"
-        return maxP,buys,sells
+        return maxP,buys,sells #providing solution
 
 coins = Solution()
 expection = coins.trades_history([
