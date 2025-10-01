@@ -3,21 +3,21 @@
 
 class Solution:
     def trades_history(self,prices):
-        maxP = 0
+        mapP = 0
         l,r=0,1
         buy,sell = None,None
 
         for r in range(len(prices)):
             if prices[l] < prices[r]:
                 profit = prices[r] - prices[l]
-                maxP = max(maxP,profit)
+                mapP = max(mapP,profit)
                 buy,sell = prices[l],prices[r]
             else:
                 l=r
             r+=1
         buys = f"Buy at: {buy}"
         sells = f"Sell at: {sell}"
-        return maxP,buys,sells #providing solution
+        return mapP,buys,sells #providing solution
 
 coins = Solution()
 expection = coins.trades_history([
